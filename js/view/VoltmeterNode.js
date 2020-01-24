@@ -111,8 +111,8 @@ define( require => {
 
       const probeTextNode = new ProbeTextNode(
         voltageReadoutProperty, options.showResultsProperty, voltageString, tandem.createTandem( 'probeTextNode' ), {
-          centerX: voltmeterBodyImage[ 0 ].width / 2,
-          centerY: voltmeterBodyImage[ 0 ].height / 2
+          centerX: voltmeterBodyImage.width / 2,
+          centerY: voltmeterBodyImage.height / 2
         } );
 
       const bodyNode = new Image( voltmeterBodyImage, {
